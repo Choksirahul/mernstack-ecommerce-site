@@ -1,7 +1,7 @@
 
 # MERN Stack E-commerce Site
 
-A full-featured e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application provides a seamless shopping experience with functionalities like product browsing, user authentication, shopping cart, and order management.([GitHub][1])
+A full-featured e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This application provides a seamless shopping experience with functionalities like product browsing, user authentication, shopping cart, and order management.
 
 ## 🛍️ Features
 
@@ -9,7 +9,7 @@ A full-featured e-commerce platform built using the MERN stack (MongoDB, Express
 * **Product Management**: Browse through a variety of products with detailed descriptions.
 * **Shopping Cart**: Add, remove, and manage products in the cart.
 * **Order Processing**: Place orders and view order history.
-* **Responsive Design**: Optimized for various devices and screen sizes.([GitHub][2], [GitHub][3])
+* **Responsive Design**: Optimized for various devices and screen sizes.
 
 ## 🛠️ Technologies Used
 
@@ -23,9 +23,6 @@ A full-featured e-commerce platform built using the MERN stack (MongoDB, Express
   * Node.js
   * Express.js
   * MongoDB
-* **Others**:
-
-  * HTML([YouTube][4], [GitHub][5], [GitHub][6])
 
 ## 🚀 Getting Started
 
