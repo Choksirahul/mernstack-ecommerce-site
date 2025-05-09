@@ -1,0 +1,112 @@
+.login-wrapper,
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.login,
+.register {
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px 48px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 50px rgb(96 68 121 / 10%);
+}
+
+.login :is(h2),
+.register :is(h2) {
+  font-weight: 500;
+}
+
+.login h2,
+.register h2 {
+  font-size: 24px;
+  margin: 0 0 32px;
+}
+
+.login form,
+.register form {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+}
+
+.login :is(input, button),
+.register :is(input, button) {
+  height: 52px;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.login .textbox,
+.register .textbox {
+  position: relative;
+}
+
+label,
+input {
+  transition: 0.3s;
+}
+
+.textbox label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  translate: 0 -50%;
+  transform-origin: 0 50%;
+  pointer-events: none;
+  color: #ada5b4;
+}
+
+.textbox input {
+  width: 100%;
+  padding-top: 10px;
+  background: #f4f1f7;
+  outline: none;
+  color: inherit;
+  box-shadow: 0 0 0 2px transparent;
+}
+
+.textbox input:focus {
+  box-shadow: 0 0 0 2px #7b00f1;
+}
+
+.textbox input:is(:focus, :not(:invalid)) ~ label {
+  scale: 0.725;
+  translate: 0 -112%;
+}
+
+.login button,
+.register button {
+  color: #f9f9f9;
+  background: #7b00f1;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.login a,
+.register a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7b00f1;
+}
+
+.login p,
+.register p {
+  margin: 20px 0 0;
+  font-size: 14px;
+  color: #ada5b4;
+}

@@ -1,0 +1,14 @@
+@import url(../utlis/ProductList/product-list.css);
+
+.products {
+  width: 100%;
+}
+
+.products-content {
+  width: 1230px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  justify-items: center;
+  gap: 40px;
+  margin: 20px auto;
+}

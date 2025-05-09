@@ -62,8 +62,8 @@ const productCtrl = {
         .pagination();
       const products = await features.query;
 
-      // res.json(products);
-      res.json({ result: products.length });
+      res.json(products);
+      // res.json({ result: products.length });
     } catch (err) {
       return res.status(500).json({ msg: err.message });
     }
